@@ -51,6 +51,11 @@ header p {
     font-size: 20px;
     margin: 10px 0 20px;
 }
+.header-right{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
 
 nav a {
     text-decoration: none;
@@ -65,6 +70,44 @@ nav a:hover {
 
 h2 {
     text-align: center;
+}
+
+/* ===== Login & Signup ===== */
+
+/* Push buttons to the far right */
+.auth-buttons{
+    margin-left:auto;
+    display:flex;
+    gap:12px;
+}
+
+/* Buttons */
+.login-btn,
+.signup-btn{
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.login-btn{
+    border:2px solid #007bff;
+    color:#007bff;
+}
+
+.signup-btn{
+    background:#007bff;
+    color:#fff;
+    border:2px solid #007bff;
+}
+
+.login-btn:hover{
+    background:#007bff;
+    color:#fff;
+}
+
+.signup-btn:hover{
+    background:#0056b3;
 }
 .hero {
     background: linear-gradient(to right, oklab(95.466% -0.00065 -0.0017), #eceae8);
