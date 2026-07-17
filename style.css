@@ -12,98 +12,95 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: lightblue;
-    width: 100%;
-    height: 250px;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
+/* ================= HEADER ================= */
+
+header{
+    background:lightblue;
+    padding:20px 50px;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
+/* Top Row */
+
+.header-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
 
-.logo img {
-    width: 60px;
-    height: 60px;
-    margin-right: 15px;
-}
+/* Logo Section */
 
-.logo h1 {
-    margin: 0;
-    font-size: 40px;
-    font-family: "Times New Roman", serif;
-    letter-spacing: 3px;
-    text-align: left;
-}
-
-header h1 {
-    letter-spacing: 6px;
-    font-size: 50px;
-    font-family: "Times New Roman", serif;
-    margin: 0;
-}
-
-header p {
-    font-size: 20px;
-    margin: 10px 0 20px;
-}
-.header-right{
+.logo-section{
     display:flex;
     align-items:center;
-    gap:30px;
+    gap:15px;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
-    margin: 0 15px;
-    font-size: 18px;
+.logo-section img{
+    width:70px;
+    height:70px;
 }
 
-nav a:hover {
-    color: rgb(153, 154, 218);
+.logo-section h1{
+    margin:0;
+    font-size:42px;
+    font-family:"Times New Roman", serif;
 }
 
-h2 {
-    text-align: center;
+.logo-section p{
+    margin-top:8px;
+    font-size:18px;
+    color:#333;
 }
 
-/* ===== Login & Signup ===== */
+/* Navigation */
 
-/* Push buttons to the far right */
-.auth-buttons{
-    margin-left:auto;
+.navbar{
+    margin-top:25px;
     display:flex;
-    gap:12px;
+    gap:35px;
 }
 
-/* Buttons */
+.navbar a{
+    text-decoration:none;
+    color:black;
+    font-size:19px;
+    font-weight:bold;
+}
+
+.navbar a:hover{
+    color:#007bff;
+}
+
+/* Login & Signup */
+
+.auth-buttons{
+    display:flex;
+    gap:15px;
+}
+
 .login-btn,
 .signup-btn{
-    padding:10px 20px;
+    padding:10px 22px;
     text-decoration:none;
-    border-radius:5px;
+    border-radius:6px;
     font-weight:bold;
 }
 
 .login-btn{
     border:2px solid #007bff;
     color:#007bff;
-}
-
-.signup-btn{
-    background:#007bff;
-    color:#fff;
-    border:2px solid #007bff;
+    background:white;
 }
 
 .login-btn:hover{
     background:#007bff;
-    color:#fff;
+    color:white;
+}
+
+.signup-btn{
+    background:#007bff;
+    color:white;
+    border:2px solid #007bff;
 }
 
 .signup-btn:hover{
