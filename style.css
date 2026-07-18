@@ -497,8 +497,8 @@ footer{
 
     background:linear-gradient(
         to right,
-        #924392,
-        #ee3f6b
+        #ebedf0,
+        #94a2df
     );
 
 }
@@ -525,7 +525,7 @@ footer{
 
     text-align:center;
 
-    color:#007bff;
+    color:#083769;
 
     font-size:32px;
 
