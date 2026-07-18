@@ -277,194 +277,100 @@ header{
     line-height:1.8;
 
 }
+
 /* Footer */
 
-footer {
-
-    width:100%;
-
+footer{
     background:#222;
-
-    color:white;
-
+    color:#fff;
     padding:50px 60px;
-
 }
 
-
-
-.footer-container {
-
+.footer-container{
     display:flex;
-
     justify-content:space-between;
-
     align-items:flex-start;
-
+    flex-wrap:wrap;
 }
 
-
-
-/* Left Logo Section */
-
-.footer-about {
-
+.footer-about,
+.footer-links,
+.footer-contact{
     width:30%;
-
 }
 
-
-
-.footer-logo {
-
+.footer-logo{
     display:flex;
-
-    align-items:flex-start;
-
+    gap:15px;
 }
 
-
-
-.footer-logo img {
-
+.footer-logo img{
     width:70px;
-
     height:70px;
-
     border-radius:50%;
-
-    margin-right:15px;
-
 }
 
-
-
-.footer-logo h3 {
-
-    font-size:28px;
-
-    color:white;
-
-    margin-bottom:10px;
-
-}
-
-
-
-.footer-logo p {
-
-    color:#ddd;
-
-    line-height:1.6;
-
-}
-
-
-
-
-
-/* Quick Links Center */
-
-.footer-links {
-
-    width:30%;
-
+.footer-links{
     text-align:center;
-
 }
 
-
-
-.footer-links h3 {
-
-    font-size:25px;
-
-    margin-bottom:20px;
-
-}
-
-
-
-.quick-menu {
-
+.quick-menu{
     display:flex;
-
     justify-content:center;
-
     gap:25px;
-
 }
 
-
-
-.quick-menu a {
-
-    color:white;
-
+.quick-menu a{
+    color:#fff;
     text-decoration:none;
-
-    font-size:18px;
-
 }
 
-
-
-.quick-menu a:hover {
-
+.quick-menu a:hover{
     color:cyan;
-
 }
 
-
-
-
-
-/* Contact Right */
-
-.footer-contact {
-
-    width:30%;
-
+.footer-contact{
     text-align:right;
-
 }
 
+/* Bottom Right Icons */
 
-
-.footer-contact h3 {
-
-    font-size:25px;
-
-    margin-bottom:15px;
-
+.footer-bottom{
+    display:flex;
+    justify-content:flex-end;
+    margin-top:30px;
 }
 
-
-
-.footer-contact p {
-
-    color:#ddd;
-
-    line-height:1.8;
-
+.footer-social{
+    display:flex;
+    gap:15px;
 }
 
+.footer-social a{
+    width:45px;
+    height:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#444;
+    color:#fff;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:20px;
+    transition:.3s;
+}
 
-
-
+.footer-social a:hover{
+    background:#0d6efd;
+    transform:translateY(-5px);
+}
 
 /* Copyright */
 
-.copyright {
-
+.copyright{
     text-align:center;
-
-    margin-top:30px;
-
-    padding-top:20px;
-
+    margin-top:20px;
     border-top:1px solid #555;
-
+    padding-top:20px;
     color:#aaa;
-
 }
