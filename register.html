@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 </head>
 
@@ -79,20 +78,59 @@
 
 
 
-<!-- Login & Register Forms -->
-
-
-<div class="form-container">
 
 
 
-<!-- Login Form -->
 
 
-<form class="login-form" id="login">
+
+<!-- Register Form -->
 
 
-    <h2>User Login</h2>
+<form class="login-form" id="register">
+
+
+    <h2>Create Account</h2>
+
+
+
+    <!-- Full Name -->
+
+    <div class="input-box">
+
+        <label>
+            Full Name
+        </label>
+
+        <input 
+        type="text"
+        placeholder="Enter Full Name"
+        required>
+
+    </div>
+
+
+
+
+
+    <!-- Email -->
+
+    <div class="input-box">
+
+        <label>
+            Email
+        </label>
+
+        <input 
+        type="email"
+        placeholder="Enter Email"
+        required>
+
+    </div>
+
+
+
+
 
 
     <!-- Username -->
@@ -105,10 +143,12 @@
 
         <input 
         type="text"
-        placeholder="Enter Username"
+        placeholder="Create Username"
         required>
 
     </div>
+
+
 
 
 
@@ -123,7 +163,7 @@
 
         <input 
         type="password"
-        placeholder="Enter Password"
+        placeholder="Create Password"
         required>
 
     </div>
@@ -131,93 +171,58 @@
 
 
 
+
+    <!-- Confirm Password -->
+
+    <div class="input-box">
+
+        <label>
+            Confirm Password
+        </label>
+
+        <input 
+        type="password"
+        placeholder="Confirm Password"
+        required>
+
+    </div>
+
+
+
+
+
+
     <button type="submit">
 
-        Submit
+        Register
 
     </button>
 
 
 
 
-    <!-- Options -->
 
+   <div class="login-options">
 
-    <div class="login-options">
+    <p>
 
+        Already have an account?
 
-        <a href="forgot-password.html">
+        <a href="login.html">
 
-            Forgot Password?
+            Login
 
         </a>
 
+    </p>
 
+</div>
 
-        <p>
-
-            Don't have an account?
-
-            <a href="register.html">
-
-                Create an Account
-
-            </a>
-
-        </p>
-
-         <div class="login-options">
-
-
-        <p>
-
-            Already have an account?
-
-            <a href="#login">
-
-                Login
-
-            </a>
-
-
-        </p>
-
-
-    </div>
-
-
-
-
-
-    </div>
 
 
 
 </form>
 
-
-
-
-
-
-
-    
-
-
-
-
-
-
-   
-
-
-
-
-
-   
-
-
-</form>
 
 
 </div>
