@@ -433,8 +433,8 @@ footer{
 
 .footer-social a{
 
-    width:45px;
-    height:45px;
+    width:35px;
+    height:35px;
 
     display:flex;
     justify-content:center;
@@ -448,7 +448,7 @@ footer{
 
     text-decoration:none;
 
-    font-size:22px;
+    font-size:16px;
 
     transition:0.3s;
 
@@ -478,5 +478,151 @@ footer{
     border-top:1px solid #555;
 
     color:#aaa;
+
+}
+
+
+/* ================= LOGIN FORM PAGE ================= */
+
+
+.form-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(
+        to right,
+        #924392,
+        #ee3f6b
+    );
+
+}
+
+
+
+.login-form{
+
+    width:350px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+
+}
+
+
+
+.login-form h2{
+
+    text-align:center;
+
+    color:#007bff;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+.input-box{
+
+    margin-bottom:20px;
+
+}
+
+
+
+.input-box label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    color:#333;
+
+}
+
+
+
+.input-box input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+
+
+.input-box input:focus{
+
+    outline:none;
+
+    border-color:#007bff;
+
+}
+
+
+
+.login-form button{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#007bff;
+
+    color:white;
+
+    border:none;
+
+    border-radius:6px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}
+
+
+
+.login-form button:hover{
+
+    background:#0056b3;
+
+}
+
+/* Login Page Footer */
+
+.login-form + footer{
+
+    background:#222;
+
+    color:white;
+
+    padding:20px;
 
 }
