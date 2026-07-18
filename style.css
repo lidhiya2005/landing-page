@@ -36,8 +36,8 @@ header{
 }
 
 .logo-section img{
-    width:70px;
-    height:70px;
+    width:100px;
+    height:100px;
 }
 
 .logo-section h1{
@@ -316,15 +316,15 @@ footer{
 
     display:flex;
     align-items:center;
-    gap:15px;
+    gap:10px;
 
 }
 
 
 .footer-logo img{
 
-    width:70px;
-    height:70px;
+    width:100px;
+    height:100px;
     border-radius:50%;
 
 }
