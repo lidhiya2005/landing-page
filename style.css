@@ -280,97 +280,203 @@ header{
 
 /* Footer */
 
+/* Footer */
+
 footer{
+
+    width:100%;
     background:#222;
-    color:#fff;
+    color:white;
     padding:50px 60px;
+
 }
 
+
 .footer-container{
+
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
-    flex-wrap:wrap;
+
 }
+
 
 .footer-about,
 .footer-links,
 .footer-contact{
+
     width:30%;
+
 }
+
+
+/* Logo */
 
 .footer-logo{
+
     display:flex;
+    align-items:center;
     gap:15px;
+
 }
 
+
 .footer-logo img{
+
     width:70px;
     height:70px;
     border-radius:50%;
+
 }
+
+
+.footer-logo h3{
+
+    font-size:28px;
+    margin-bottom:10px;
+
+}
+
+
+.footer-logo p{
+
+    color:#ddd;
+
+}
+
+
+/* Quick Links */
 
 .footer-links{
+
     text-align:center;
+
 }
 
+
+.footer-links h3{
+
+    font-size:25px;
+
+}
+
+
 .quick-menu{
+
     display:flex;
     justify-content:center;
     gap:25px;
+    margin-top:15px;
+
 }
+
 
 .quick-menu a{
-    color:#fff;
+
+    color:white;
     text-decoration:none;
+
 }
+
 
 .quick-menu a:hover{
+
     color:cyan;
+
 }
+
+
+
+/* Contact */
 
 .footer-contact{
+
     text-align:right;
+
 }
 
-/* Bottom Right Icons */
+
+.footer-contact h3{
+
+    font-size:25px;
+
+}
+
+
+.footer-contact p{
+
+    color:#ddd;
+    line-height:1.8;
+
+}
+
+
+
+/* Social Icons */
 
 .footer-bottom{
+
     display:flex;
     justify-content:flex-end;
-    margin-top:30px;
+    margin-top:35px;
+
 }
+
 
 .footer-social{
+
     display:flex;
     gap:15px;
+
 }
 
+
 .footer-social a{
+
     width:45px;
     height:45px;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
     background:#444;
-    color:#fff;
+
+    color:white;
+
     border-radius:50%;
+
     text-decoration:none;
-    font-size:20px;
-    transition:.3s;
+
+    font-size:22px;
+
+    transition:0.3s;
+
 }
 
+
 .footer-social a:hover{
-    background:#0d6efd;
+
+    background:#007bff;
+
     transform:translateY(-5px);
+
 }
+
+
 
 /* Copyright */
 
 .copyright{
+
     text-align:center;
-    margin-top:20px;
-    border-top:1px solid #555;
+
+    margin-top:25px;
+
     padding-top:20px;
+
+    border-top:1px solid #555;
+
     color:#aaa;
+
 }
